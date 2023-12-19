@@ -19,7 +19,7 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            FileInputStream fs = new FileInputStream("D:/Manchkin2/Manchkin/logging.properties");
+            FileInputStream fs = new FileInputStream("/home/nyanbanan/IdeaProjects/Manchkin/logging.properties");
             Log.readProperty(fs);
         } catch (FileNotFoundException exc) {
             Log.fmtGlobLog(exc.toString());
